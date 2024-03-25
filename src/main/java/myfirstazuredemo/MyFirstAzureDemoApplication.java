@@ -12,7 +12,7 @@ public class MyFirstAzureDemoApplication {
 
 	@GetMapping("/message")
 	public String getMessage(){
-		return "my first azure cloud message";
+		return "My frist Azure message and deployed Successfully";
 	}
 
 	public static void main(String[] args) {
