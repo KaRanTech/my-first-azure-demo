@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class MyFirstAzureDemoApplication {
 
 	@GetMapping("/message")
-	public String getMessage(@PathVariable  String message){
+	public String getMessage(){
 		return "my first azure cloud message";
 	}
 
